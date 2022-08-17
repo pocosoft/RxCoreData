@@ -9,7 +9,6 @@ public final class FetchedResultsControllerEntityObserver<T: NSManagedObject> : 
 	private let observer: Observer
 	private let frc: NSFetchedResultsController<T>
 	
-	
 	init(observer: Observer, fetchRequest: NSFetchRequest<T>, managedObjectContext context: NSManagedObjectContext, sectionNameKeyPath: String?, cacheName: String?) {
 		self.observer = observer
 		
@@ -40,6 +39,7 @@ public final class FetchedResultsControllerEntityObserver<T: NSManagedObject> : 
 	public func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
 		sendNextElement()
 	}
+    
     /// Delegate implementation for `Disposable`
     /// required methods - This is kept in here
     /// to make `frc` private.

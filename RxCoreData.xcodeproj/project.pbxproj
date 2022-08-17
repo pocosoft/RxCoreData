@@ -19,23 +19,31 @@
 		25CADFD7273970170006F785 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CADFCD273970170006F785 /* RxBlocking.xcframework */; };
 		25CADFD8273970170006F785 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CADFCD273970170006F785 /* RxBlocking.xcframework */; };
 		25CADFD9273970170006F785 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CADFCD273970170006F785 /* RxBlocking.xcframework */; };
+		25CADFF7273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFF6273971720006F785 /* NSManagedObjectContext+Extensions.swift */; };
+		25CADFF8273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFF6273971720006F785 /* NSManagedObjectContext+Extensions.swift */; };
+		25CADFF9273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFF6273971720006F785 /* NSManagedObjectContext+Extensions.swift */; };
+		25CADFFA273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFF6273971720006F785 /* NSManagedObjectContext+Extensions.swift */; };
+		25CADFFF2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFC2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift */; };
+		25CAE0002739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFC2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift */; };
+		25CAE0012739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFC2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift */; };
+		25CAE0022739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFC2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift */; };
+		25CAE0032739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFD2739717B0006F785 /* FetchedResultsControllerSectionObserver.swift */; };
+		25CAE0042739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFD2739717B0006F785 /* FetchedResultsControllerSectionObserver.swift */; };
+		25CAE0052739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFD2739717B0006F785 /* FetchedResultsControllerSectionObserver.swift */; };
+		25CAE0062739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFD2739717B0006F785 /* FetchedResultsControllerSectionObserver.swift */; };
+		25CAE0072739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFE2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift */; };
+		25CAE0082739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFE2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift */; };
+		25CAE0092739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFE2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift */; };
+		25CAE00A2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CADFFE2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift */; };
 		5A017DD41D7D6F560027384A /* RxCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A017DD31D7D6F560027384A /* RxCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A2FAD551D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */; };
-		5A2FAD561D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */; };
 		5A2FAD571D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */; };
 		5A2FAD581D7D6F73007DECCB /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD531D7D6F73007DECCB /* Persistable.swift */; };
-		F400B2C62040BED6003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */; };
-		F400B2C72040BED6003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */; };
 		F400B2C82040BED6003F5030 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD531D7D6F73007DECCB /* Persistable.swift */; };
 		F400B2C92040BED6003F5030 /* NSManagedObjectContext+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */; };
 		F400B2CC2040BED6003F5030 /* RxCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A017DD31D7D6F560027384A /* RxCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F400B2D52040BEEA003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */; };
-		F400B2D62040BEEA003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */; };
 		F400B2D72040BEEA003F5030 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD531D7D6F73007DECCB /* Persistable.swift */; };
 		F400B2D82040BEEA003F5030 /* NSManagedObjectContext+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */; };
 		F400B2DB2040BEEA003F5030 /* RxCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A017DD31D7D6F560027384A /* RxCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F400B2E42040BEF4003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */; };
-		F400B2E52040BEF4003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */; };
 		F400B2E62040BEF4003F5030 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD531D7D6F73007DECCB /* Persistable.swift */; };
 		F400B2E72040BEF4003F5030 /* NSManagedObjectContext+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */; };
 		F400B2EA2040BEF4003F5030 /* RxCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A017DD31D7D6F560027384A /* RxCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,11 +53,13 @@
 		25CADFCB273970170006F785 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		25CADFCC273970170006F785 /* RxDataSources.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxDataSources.xcframework; path = Carthage/Build/RxDataSources.xcframework; sourceTree = "<group>"; };
 		25CADFCD273970170006F785 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		25CADFF6273971720006F785 /* NSManagedObjectContext+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extensions.swift"; sourceTree = "<group>"; };
+		25CADFFC2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsControllerControllerEntityObserver.swift; sourceTree = "<group>"; };
+		25CADFFD2739717B0006F785 /* FetchedResultsControllerSectionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsControllerSectionObserver.swift; sourceTree = "<group>"; };
+		25CADFFE2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectContextNotificationObserver.swift; sourceTree = "<group>"; };
 		5A017DD01D7D6F550027384A /* RxCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A017DD31D7D6F560027384A /* RxCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCoreData.h; sourceTree = "<group>"; };
 		5A017DD51D7D6F560027384A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsControllerControllerEntityObserver.swift; sourceTree = "<group>"; };
-		5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsControllerSectionObserver.swift; sourceTree = "<group>"; };
 		5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Rx.swift"; sourceTree = "<group>"; };
 		5A2FAD531D7D6F73007DECCB /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		C4A50F39229698030037E608 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -103,6 +113,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25CADFF5273971720006F785 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25CADFF6273971720006F785 /* NSManagedObjectContext+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		25CADFFB2739717B0006F785 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				25CADFFC2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift */,
+				25CADFFD2739717B0006F785 /* FetchedResultsControllerSectionObserver.swift */,
+				25CADFFE2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
 		5A017DC61D7D6F550027384A = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +166,8 @@
 		5A2FAD4E1D7D6F73007DECCB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5A2FAD501D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift */,
-				5A2FAD511D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift */,
+				25CADFFB2739717B0006F785 /* Observers */,
+				25CADFF5273971720006F785 /* Extensions */,
 				5A2FAD521D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift */,
 				5A2FAD531D7D6F73007DECCB /* Persistable.swift */,
 			);
@@ -347,10 +375,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2FAD561D7D6F73007DECCB /* FetchedResultsControllerSectionObserver.swift in Sources */,
-				5A2FAD551D7D6F73007DECCB /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CADFFF2739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE0072739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				5A2FAD581D7D6F73007DECCB /* Persistable.swift in Sources */,
 				5A2FAD571D7D6F73007DECCB /* NSManagedObjectContext+Rx.swift in Sources */,
+				25CAE0032739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				25CADFF7273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,10 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F400B2C62040BED6003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */,
-				F400B2C72040BED6003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE0002739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE0082739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				F400B2C82040BED6003F5030 /* Persistable.swift in Sources */,
 				F400B2C92040BED6003F5030 /* NSManagedObjectContext+Rx.swift in Sources */,
+				25CAE0042739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				25CADFF8273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,10 +401,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F400B2D52040BEEA003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */,
-				F400B2D62040BEEA003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE0012739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE0092739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				F400B2D72040BEEA003F5030 /* Persistable.swift in Sources */,
 				F400B2D82040BEEA003F5030 /* NSManagedObjectContext+Rx.swift in Sources */,
+				25CAE0052739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				25CADFF9273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,10 +414,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F400B2E42040BEF4003F5030 /* FetchedResultsControllerSectionObserver.swift in Sources */,
-				F400B2E52040BEF4003F5030 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE0022739717B0006F785 /* FetchedResultsControllerControllerEntityObserver.swift in Sources */,
+				25CAE00A2739717B0006F785 /* ManagedObjectContextNotificationObserver.swift in Sources */,
 				F400B2E62040BEF4003F5030 /* Persistable.swift in Sources */,
 				F400B2E72040BEF4003F5030 /* NSManagedObjectContext+Rx.swift in Sources */,
+				25CAE0062739717B0006F785 /* FetchedResultsControllerSectionObserver.swift in Sources */,
+				25CADFFA273971720006F785 /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
