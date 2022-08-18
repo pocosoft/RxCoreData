@@ -15,21 +15,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set Default Scheme
+        working-directory: ./RxCoreDataExample
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
           echo $default | cat >default
           echo Using default scheme: $default
-      - name: Carthage
-        run: carthage bootstrap --platform iOS --cache-builds --use-xcframeworks
-      - name: Cache Carthage
-        uses: actions/cache@v2
+      - name: pod install
+        working-directory: ./RxCoreDataExample
+        run: pod install
+      - name: Cache CocoaPods files
+        uses: actions/cache@preview
         with:
-          path: Carthage
-          key: ${{ runner.os }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
+          path: ./RxCoreDataExample/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-carthage-
+            ${{ runner.os }}-pods-
       - name: Build
+        working-directory: ./RxCoreDataExample
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
@@ -41,6 +44,7 @@ jobs:
           file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
           xcodebuild build-for-testing -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=$platform,name=$device"
       - name: Test
+        working-directory: ./RxCoreDataExample
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
