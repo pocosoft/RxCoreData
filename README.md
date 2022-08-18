@@ -1,6 +1,6 @@
 # RxCoreData
 
-[![CI Status](http://img.shields.io/travis/RxSwiftCommunity/RxCoreData.svg?style=flat)](https://travis-ci.org/RxSwiftCommunity/RxCoreData)
+![example workflow](https://github.com/pocosoft/RxCoreData/actions/workflows/ios.yml/badge.svg)
 [![Version](https://img.shields.io/cocoapods/v/RxCoreData.svg?style=flat)](http://cocoapods.org/pods/RxCoreData)
 [![License](https://img.shields.io/cocoapods/l/RxCoreData.svg?style=flat)](http://cocoapods.org/pods/RxCoreData)
 [![Platform](https://img.shields.io/cocoapods/p/RxCoreData.svg?style=flat)](http://cocoapods.org/pods/RxCoreData)
