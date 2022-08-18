@@ -21,7 +21,7 @@ jobs:
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Carthage
-        run: carthage bootstrap --platform iOS --cache-builds
+        run: carthage bootstrap --platform iOS --cache-builds --use-xcframeworks
       - name: Cache Carthage
         uses: actions/cache@v2
         with:
